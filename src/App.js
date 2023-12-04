@@ -9,7 +9,7 @@ function App() {
     <div className="container">
       <h3>The birthdays of my {people.length} favorite authors. </h3>
      <List people={people}/>
-     <button onClick={() => setPeople([])}>clear all</button>
+     <button onClick={() => setPeople([])}>Clear All</button>
     </div>
     </main>
   );
