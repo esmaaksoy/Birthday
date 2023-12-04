@@ -36,6 +36,9 @@ button {
   border-radius: 0.5rem;
   cursor: pointer;
 }
+button:hover{
+    font-size: 1.5rem;
+}
 h3 {
   margin-bottom: 1rem;
   font-size: 2rem;
