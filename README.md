@@ -5,6 +5,7 @@ This project is a simple website created using React.
 
 [Birthdays Live Page](https://birthdaysofauthors.netlify.app/)
 ## Description
+I used a mock API on this website.
 In the project directory, you can run:
 ### `npm start`
 Runs the app in the development mode.\
