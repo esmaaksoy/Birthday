@@ -12,7 +12,8 @@ body {
   padding: 3rem;
   box-shadow: 3px 5px 15px 10px white;
   border-radius: 1rem;
-  width: 30%;
+  width: 50%;
+  margin: auto;
 }
 img {
   width: 75px;
@@ -20,13 +21,10 @@ img {
   border-radius: 50%;
   object-fit: cover;
 }
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+/* main {
+ margin: auto;
+ 
+} */
 button {
   color: white;
   width: 100%;
@@ -51,3 +49,19 @@ h3 {
   gap: 1rem;
   margin-bottom: 1rem;
 }
+ @media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+       }
+   
+} 
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+       }
+} 
+@media screen and (min-width: 769px) and (max-width:1024px){
+    .container {
+        width: 80%;
+       }
+} 
