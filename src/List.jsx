@@ -1,11 +1,13 @@
-const List = ({ people }) => {
+const List = ({people}) => {
   return (
-    <div >
+    <div className="card">
       {people.map(({ id, name, age, image }) => (
-        <div>
+        <div key={id} className="person">
         <img src={image} alt="" />
+        <div className="title">
         <h4>{name}</h4>
-        <p>{age}</p>
+        <p>{age} years</p>
+        </div>
         </div>
       ))}
     </div>
